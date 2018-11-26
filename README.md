@@ -1,8 +1,7 @@
 # 设计模式
 ---
 
-*参考[菜鸟教程][1]*
-**[代码网址][2]**
+*特别感谢![参考菜鸟教程](http://www.runoob.com/design-pattern/design-pattern-tutorial.html)*
 
 ## 模式
 工厂模式（Factory Pattern）是 Java 中最常用的设计模式之一．这种类型的设计模式属于创建型模式，它提供了一种创建对象的最佳方式．
@@ -75,4 +74,3 @@
 
 ###建议
 一般情况下,不建议使用第1种和第2种懒汉方式,建议使用第3种饿汉方式.只有在要明确实现lazyloading效果时,才会使用第5种登记方式。如果涉及到反序列化创建对象时,可以尝试使用第6种枚举方式。如果有其他特殊的需求,可以考虑使用第4种双检锁方式.
-  [1]: http://www.runoob.com/design-pattern/design-pattern-tutorial.html
